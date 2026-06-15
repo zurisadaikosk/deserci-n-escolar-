@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #909485;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: rgb(6, 12, 31);
+    box-shadow: 0px 0px 10px rgba(223, 5, 5, 0.1);
+}
+
+header {
+    background: #142840; /* Azul cielo */
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 28px;
+    border-bottom: 4px solid #1e6a91;
+}
+
+nav {
+    height: 50px;
+    background: #0b1828; /* Rosa pastel */
+    border-bottom: 2px solid #112977;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c2185b;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: calc(80% - 80px);
+    background: #0c1114; /* Lila claro */
+    min-height: 500px;
+    padding: 40px;
+}
+
+aside {
+    float: left;
+    width: calc(29% - 20px);
+    background: #0b1828; /* Magenta pastel */
+    min-height: 500px;
+    padding: 10px;
+}
+
+aside h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #909485;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.article {
+    color: #fcf8f8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #1592da;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.article:first-child {
+    border-top: 1px solid #1592da;
+    padding-top: 10px;
+}
+
+.article h2 {
+    font-size: 24px;
+    color: #fdfdfd;
+    margin-bottom: 5px;
+}
+
